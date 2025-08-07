@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://7ic18n0jmnjj"]
+
+[ext_resource type="Texture2D" uid="uid://bub8g321v3awd" path="res://icon.svg" id="1_smwab"]
+
+[node name="gamemanagers" type="Node2D"]
+position = Vector2(1, 2)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(187, 157)
+texture = ExtResource("1_smwab")
+
+[node name="Icon2" type="Sprite2D" parent="Icon"]
+position = Vector2(243, 61)
+rotation = 0.00773454
+scale = Vector2(0.559607, 0.495322)
+texture = ExtResource("1_smwab")
+offset = Vector2(-1.30731, -2.59663)
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(350, 380)
+rotation = -1.309
+texture = ExtResource("1_smwab")
